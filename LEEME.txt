@@ -1,0 +1,15 @@
+El siguiente sistema esta desarrollado con PHP version 8.1.10, Mysql version 8.0.30 y Apache version 2.4.54 con el aplicativo laragon
+
+Sigue los siguientes pasos para su instalacion:
+
+1.- Instalar el aplicativo laragon ingresar en el siguiente enlace para descargarlo -> https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe.
+2.- Despues de que se instalo procede a iniciar los servicios de lagaron dando click en el boton INICIAR TODO.
+3.- Importar Base:
+    3.1.- Despues de iniciar los servicios, darle click en la parte superior donde dice Menu.
+    3.2.- Se abre una ventana pequeña y pasar el mouse por Mysql y despues darle click en HeidiSQL.
+    3.3.- Se abre una ventana nueva y seleccionamo donde dice Laragon.Mysql y darle click en el boton Abrir
+    3.4.- Se procede abrir otra ventana nueva, donde nos vamos a la pestaña Archivo, despues a la opcion Ejecutar Archivo SQL.
+    3.5.- Se procede abrir una ventana y buscamos el archivo(.sql) de nuestra base de datos que se encuentra en la carpeta examen/basededatos.
+    3.6.- Como parte final procederemos a ejecutar todas las consultar (en la parte superior hay un simbolo como play de color verde)
+4.- Despues de haber realizado los pasos anteriores, procede copiar toda la carpeta examen, en la ruta c:/laragon/www/
+5.- Abre google chrome y escribe en el navegador localhost/examen
